@@ -50,14 +50,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FREERTOS_Project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FREERTOS_Project-Debug-e60796f93bb07bc3fb61.json",
+					"jsonFile" : "target-FREERTOS_Project-Debug-77ee791929211575e9b3.json",
 					"name" : "FREERTOS_Project",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-19d799e680995a3f6700.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-6e27323d48e1cb8f67a8.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -112,14 +112,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FREERTOS_Project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FREERTOS_Project-Release-ccc77e12e9568ae6c818.json",
+					"jsonFile" : "target-FREERTOS_Project-Release-f5d1886a4c56333881a4.json",
 					"name" : "FREERTOS_Project",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-19d799e680995a3f6700.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-6e27323d48e1cb8f67a8.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -174,14 +174,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FREERTOS_Project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FREERTOS_Project-MinSizeRel-c3363b492fb5469dc587.json",
+					"jsonFile" : "target-FREERTOS_Project-MinSizeRel-a463bb115598ea35cc85.json",
 					"name" : "FREERTOS_Project",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-19d799e680995a3f6700.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-6e27323d48e1cb8f67a8.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -236,14 +236,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FREERTOS_Project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FREERTOS_Project-RelWithDebInfo-47b57ff2d08fa67646ca.json",
+					"jsonFile" : "target-FREERTOS_Project-RelWithDebInfo-6c855d72ccb317bc3d95.json",
 					"name" : "FREERTOS_Project",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-19d799e680995a3f6700.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-6e27323d48e1cb8f67a8.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -253,8 +253,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio",
-		"source" : "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion"
+		"build" : "C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio",
+		"source" : "C:/Users/amin/Desktop/test/FREERTOS_CLion"
 	},
 	"version" : 
 	{

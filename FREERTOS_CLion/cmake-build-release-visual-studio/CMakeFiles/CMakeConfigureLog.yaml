@@ -8,6 +8,16 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.22624 - AMD64
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/JetBrains/CLion 2023.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22624 - AMD64
   -
     kind: "message-v1"
     backtrace:
@@ -26,8 +36,8 @@ events:
       用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
       版权所有(C) Microsoft Corporation。保留所有权利。
       
-      生成启动时间为 2023/8/31 14:38:59。
-      节点 1 上的项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      生成启动时间为 2023/9/1 13:23:57。
+      节点 1 上的项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
       PrepareForBuild:
         正在创建目录“Debug\\”。
         正在创建目录“Debug\\CompilerIdC.tlog\\”。
@@ -38,7 +48,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -46,13 +56,13 @@ events:
       FinalizeBuildStatus:
         正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
         正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
-      已完成生成项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      已完成生成项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
       
       已成功生成。
           0 个警告
           0 个错误
       
-      已用时间 00:00:01.88
+      已用时间 00:00:01.35
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -60,7 +70,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+        C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -80,8 +90,8 @@ events:
       用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
       版权所有(C) Microsoft Corporation。保留所有权利。
       
-      生成启动时间为 2023/8/31 14:39:01。
-      节点 1 上的项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      生成启动时间为 2023/9/1 13:23:59。
+      节点 1 上的项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
       PrepareForBuild:
         正在创建目录“Debug\\”。
         正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
@@ -92,7 +102,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -100,13 +110,13 @@ events:
       FinalizeBuildStatus:
         正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
         正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
-      已完成生成项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      已完成生成项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
       
       已成功生成。
           0 个警告
           0 个错误
       
-      已用时间 00:00:01.26
+      已用时间 00:00:01.33
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -114,7 +124,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -125,8 +135,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-aeifbp"
-      binary: "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-aeifbp"
+      source: "C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-ntv18z"
+      binary: "C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-ntv18z"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -134,38 +144,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-aeifbp
+        Change Dir: C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-ntv18z
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_332bc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_9876f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
         版权所有(C) Microsoft Corporation。保留所有权利。
         
-        生成启动时间为 2023/8/31 14:39:03。
-        节点 1 上的项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-aeifbp\\cmTC_332bc.vcxproj”(默认目标)。
+        生成启动时间为 2023/9/1 13:24:01。
+        节点 1 上的项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-ntv18z\\cmTC_9876f.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_332bc.dir\\Debug\\”。
-          正在创建目录“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-aeifbp\\Debug\\”。
-          正在创建目录“cmTC_332bc.dir\\Debug\\cmTC_332bc.tlog\\”。
+          正在创建目录“cmTC_9876f.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-ntv18z\\Debug\\”。
+          正在创建目录“cmTC_9876f.dir\\Debug\\cmTC_9876f.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_332bc.dir\\Debug\\cmTC_332bc.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_9876f.dir\\Debug\\cmTC_9876f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_332bc.dir\\Debug\\\\" /Fd"cmTC_332bc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\JetBrains\\CLion 2023.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9876f.dir\\Debug\\\\" /Fd"cmTC_9876f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\JetBrains\\CLion 2023.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
           版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9876f.dir\\Debug\\\\" /Fd"cmTC_9876f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\JetBrains\\CLion 2023.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_332bc.dir\\Debug\\\\" /Fd"cmTC_332bc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\JetBrains\\CLion 2023.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-aeifbp\\Debug\\cmTC_332bc.exe" /INCREMENTAL /ILK:"cmTC_332bc.dir\\Debug\\cmTC_332bc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-aeifbp/Debug/cmTC_332bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-aeifbp/Debug/cmTC_332bc.lib" /MACHINE:X64  /machine:x64 cmTC_332bc.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_332bc.vcxproj -> C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-aeifbp\\Debug\\cmTC_332bc.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-ntv18z\\Debug\\cmTC_9876f.exe" /INCREMENTAL /ILK:"cmTC_9876f.dir\\Debug\\cmTC_9876f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-ntv18z/Debug/cmTC_9876f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-ntv18z/Debug/cmTC_9876f.lib" /MACHINE:X64  /machine:x64 cmTC_9876f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9876f.vcxproj -> C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-ntv18z\\Debug\\cmTC_9876f.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_332bc.dir\\Debug\\cmTC_332bc.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_332bc.dir\\Debug\\cmTC_332bc.tlog\\cmTC_332bc.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-aeifbp\\cmTC_332bc.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_9876f.dir\\Debug\\cmTC_9876f.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_9876f.dir\\Debug\\cmTC_9876f.tlog\\cmTC_9876f.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-ntv18z\\cmTC_9876f.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:01.13
+        已用时间 00:00:01.31
         
       exitCode: 0
   -
@@ -177,8 +187,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-x84oac"
-      binary: "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-x84oac"
+      source: "C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-d8x8jp"
+      binary: "C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-d8x8jp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -186,38 +196,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-x84oac
+        Change Dir: C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-d8x8jp
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_8090b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_b09f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
         版权所有(C) Microsoft Corporation。保留所有权利。
         
-        生成启动时间为 2023/8/31 14:39:04。
-        节点 1 上的项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-x84oac\\cmTC_8090b.vcxproj”(默认目标)。
+        生成启动时间为 2023/9/1 13:24:03。
+        节点 1 上的项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-d8x8jp\\cmTC_b09f3.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_8090b.dir\\Debug\\”。
-          正在创建目录“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-x84oac\\Debug\\”。
-          正在创建目录“cmTC_8090b.dir\\Debug\\cmTC_8090b.tlog\\”。
+          正在创建目录“cmTC_b09f3.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-d8x8jp\\Debug\\”。
+          正在创建目录“cmTC_b09f3.dir\\Debug\\cmTC_b09f3.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_8090b.dir\\Debug\\cmTC_8090b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_b09f3.dir\\Debug\\cmTC_b09f3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8090b.dir\\Debug\\\\" /Fd"cmTC_8090b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\JetBrains\\CLion 2023.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b09f3.dir\\Debug\\\\" /Fd"cmTC_b09f3.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\JetBrains\\CLion 2023.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
           版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b09f3.dir\\Debug\\\\" /Fd"cmTC_b09f3.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\JetBrains\\CLion 2023.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8090b.dir\\Debug\\\\" /Fd"cmTC_8090b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\JetBrains\\CLion 2023.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-x84oac\\Debug\\cmTC_8090b.exe" /INCREMENTAL /ILK:"cmTC_8090b.dir\\Debug\\cmTC_8090b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-x84oac/Debug/cmTC_8090b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-x84oac/Debug/cmTC_8090b.lib" /MACHINE:X64  /machine:x64 cmTC_8090b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_8090b.vcxproj -> C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-x84oac\\Debug\\cmTC_8090b.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-d8x8jp\\Debug\\cmTC_b09f3.exe" /INCREMENTAL /ILK:"cmTC_b09f3.dir\\Debug\\cmTC_b09f3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-d8x8jp/Debug/cmTC_b09f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-d8x8jp/Debug/cmTC_b09f3.lib" /MACHINE:X64  /machine:x64 cmTC_b09f3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b09f3.vcxproj -> C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-d8x8jp\\Debug\\cmTC_b09f3.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_8090b.dir\\Debug\\cmTC_8090b.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_8090b.dir\\Debug\\cmTC_8090b.tlog\\cmTC_8090b.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-x84oac\\cmTC_8090b.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_b09f3.dir\\Debug\\cmTC_b09f3.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_b09f3.dir\\Debug\\cmTC_b09f3.tlog\\cmTC_b09f3.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\amin\\Desktop\\test\\FREERTOS_CLion\\cmake-build-release-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-d8x8jp\\cmTC_b09f3.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:01.14
+        已用时间 00:00:01.27
         
       exitCode: 0
 ...

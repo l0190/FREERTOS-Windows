@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\amin\Desktop\test\FREERTOS\FREERTOS_CLion\src\main.c">
+    <ClCompile Include="C:\Users\amin\Desktop\test\FREERTOS_CLion\src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D:\tools\code\c\FreeRTOSv202012.00\FreeRTOS\Source\croutine.c">
@@ -33,11 +33,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\amin\Desktop\test\FREERTOS\FREERTOS_CLion\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\amin\Desktop\test\FREERTOS_CLion\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{761B7D05-BC45-31A2-B471-C9B4BEBB1AA9}</UniqueIdentifier>
+      <UniqueIdentifier>{AE38EB6F-156B-3A8D-84E3-FD448C0E5DE7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

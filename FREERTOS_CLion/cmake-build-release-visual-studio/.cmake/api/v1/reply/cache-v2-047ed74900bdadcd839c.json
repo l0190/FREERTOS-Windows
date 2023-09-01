@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio"
+			"value" : "c:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion"
+			"value" : "C:/Users/amin/Desktop/test/FREERTOS_CLion"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1018,6 +1018,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FREERTOS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for FREERTOS."
+				}
+			],
+			"type" : "PATH",
+			"value" : "FREERTOS_DIR-NOTFOUND"
+		},
+		{
 			"name" : "FREERTOS_Project_BINARY_DIR",
 			"properties" : 
 			[
@@ -1027,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion/cmake-build-release-visual-studio"
+			"value" : "C:/Users/amin/Desktop/test/FREERTOS_CLion/cmake-build-release-visual-studio"
 		},
 		{
 			"name" : "FREERTOS_Project_IS_TOP_LEVEL",
@@ -1051,7 +1063,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/amin/Desktop/test/FREERTOS/FREERTOS_CLion"
+			"value" : "C:/Users/amin/Desktop/test/FREERTOS_CLion"
 		}
 	],
 	"kind" : "cache",
